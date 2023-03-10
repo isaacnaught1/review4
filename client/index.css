@@ -1,0 +1,15 @@
+body {
+    background-color: purple;
+}
+
+form * > {
+    display: block;
+}
+
+input {
+    margin-bottom: 12px;
+}
+
+h3 {
+    margin-top: 50px;
+}

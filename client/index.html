@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"
+    <title>Document</title>
+</head>
+<body>
+    <h1>Peopleand their power</h1>
+    <section>
+    <h3>use the following form</h3>
+    <form id="post-form">
+        name:
+        <input id="post-name"/>
+        power:
+        <input id="post-power"/>
+        <button>Submit Person</button>
+    
+    </form>
+</section>
+<section>
+    <h3>use this button to see all people in the console</h3>
+    <button id="get-button">retrieve all people</button>
+</section>
+<section>
+    <h3>increase a person's power by 100 (identified by name)</h3>
+    <form id="put-form">
+        Name:
+        <input id="put-name"/>
+        <button>Increase!</button>
+    </form>
+</section>
+<section>
+    <h3>Delete a person(identified by name)</h3>
+    <form id="delete-form">
+        Name:
+        <input id="delete-name"/>
+        <button>Delete!</button>
+    </form>
+</section>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
